@@ -1,0 +1,69 @@
+CUSTOMER ORDER DATA PROFILE
+==================================================
+
+Rows: 1500
+Columns: 12
+
+Column Names:
+['order_id', 'customer_id', 'order_date', 'product_id', 'product_name', 'category', 'brand', 'quantity', 'unit_price', 'discount_percentage', 'order_amount', 'product_rating']
+
+Data Types:
+order_id                          str
+customer_id                       str
+order_date             datetime64[us]
+product_id                      int64
+product_name                      str
+category                          str
+brand                             str
+quantity                        int64
+unit_price                    float64
+discount_percentage           float64
+order_amount                  float64
+product_rating                float64
+dtype: object
+
+Missing Values:
+order_id               0
+customer_id            0
+order_date             0
+product_id             0
+product_name           0
+category               0
+brand                  0
+quantity               0
+unit_price             0
+discount_percentage    0
+order_amount           0
+product_rating         0
+dtype: int64
+
+Duplicate Rows:
+0
+
+Numerical Summary:
+                       order_date   product_id     quantity  ...  discount_percentage  order_amount  product_rating
+count                        1500  1500.000000  1500.000000  ...          1500.000000   1500.000000     1500.000000
+mean   2026-03-31 17:13:55.200000    50.274000     2.956667  ...             9.553727   1554.466280        3.863567
+min           2026-01-01 00:00:00     1.000000     1.000000  ...             0.040000      0.710000        2.530000
+25%           2026-02-14 00:00:00    25.000000     2.000000  ...             5.700000     14.682500        3.180000
+50%           2026-03-31 12:00:00    50.000000     3.000000  ...             9.750000     40.175000        3.920000
+75%           2026-05-17 00:00:00    76.000000     4.000000  ...            13.350000    228.050000        4.560000
+max           2026-06-29 00:00:00   100.000000     5.000000  ...            19.500000  66464.950000        4.990000
+std                           NaN    29.233964     1.399081  ...             5.135342   5973.695268        0.752503
+
+[8 rows x 7 columns]
+
+Category Distribution:
+category
+kitchen-accessories    423
+groceries              407
+furniture               95
+mens-watches            85
+mens-shirts             79
+home-decoration         78
+beauty                  78
+laptops                 77
+mens-shoes              71
+fragrances              66
+mobile-accessories      41
+Name: count, dtype: int64

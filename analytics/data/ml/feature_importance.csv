@@ -1,0 +1,10 @@
+feature,importance
+customer_lifetime_days,0.4016547586177469
+total_spend,0.10933808286705887
+total_quantity,0.10189359902298946
+total_orders,0.07797160026543536
+average_order_value,0.07544170824269952
+average_rating,0.07359989590882736
+average_discount,0.06956182922351044
+unique_products,0.06764118545987804
+unique_categories,0.022897340391854155
