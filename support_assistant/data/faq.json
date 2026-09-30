@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is the Zepto Data AI Platform?",
+        "answer": "The Zepto Data AI Platform is an end-to-end data engineering and machine learning project that collects e-commerce product data, cleans and stores it, performs customer analytics, and predicts customer inactivity."
+    },
+    {
+        "question": "What technologies are used?",
+        "answer": "The project uses Python, Pandas, PostgreSQL, SQLAlchemy, Scikit-learn, Matplotlib, Git, and Jupyter Notebook."
+    },
+    {
+        "question": "What does the Data Pipeline do?",
+        "answer": "The Data Pipeline collects product data, cleans the raw data, saves the processed data as CSV, and loads the cleaned product data into PostgreSQL."
+    },
+    {
+        "question": "How many products were collected?",
+        "answer": "The Data Pipeline collected and processed 100 products."
+    },
+    {
+        "question": "How many customer orders were used for analytics?",
+        "answer": "The analytics module uses 1,500 synthetic customer-order records."
+    },
+    {
+        "question": "How many customers are in the dataset?",
+        "answer": "The synthetic dataset contains 298 unique customers."
+    },
+    {
+        "question": "What machine learning models were used?",
+        "answer": "Two classification models were developed: Logistic Regression and Random Forest."
+    },
+    {
+        "question": "What was the Logistic Regression performance?",
+        "answer": "Logistic Regression achieved 88.33% accuracy and 0.9444 ROC-AUC on the test dataset."
+    },
+    {
+        "question": "What was the Random Forest performance?",
+        "answer": "Random Forest achieved 88.33% accuracy and 0.9653 ROC-AUC on the test dataset."
+    },
+    {
+        "question": "What does the model predict?",
+        "answer": "The machine learning models predict whether a customer is likely to be inactive based on customer-level behavioral features."
+    },
+    {
+        "question": "What is the most important Random Forest feature?",
+        "answer": "Customer lifetime days was the most important feature, with an importance score of approximately 0.4001."
+    },
+    {
+        "question": "Is the customer data real Zepto customer data?",
+        "answer": "No. The customer and order data are synthetic and were generated specifically for this capstone project. They should not be interpreted as real Zepto customer behavior."
+    }
+]
